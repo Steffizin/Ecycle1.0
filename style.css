@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #D8ECC5, #4F7D4A);
+}
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.logo img {
+    width: 200px;
+}
+h1 {
+    font-size: 20px;
+    color: #477B2A;
+    margin-bottom: 20px;
+}
+.button {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    background: #477B2A;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 25px;
+}
+.button:hover {
+    background: #3A5A32;
+}
+
+.input-container {
+    text-align: left;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label {
+    font-size: 14px;
+    color: #477B2A;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+}
+.forgot-password {
+    font-size: 12px;
+    color: #888;
+    text-align: right;
+    margin-top: 5px;
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    font-size: 14px;
+}
+.forgot-password p {
+    color: white;
+    text-decoration: none;
+    padding-right: 5px;
+}
+.forgot-password a {
+    color: #3A5A32;
+    text-decoration: none;
+    font-weight: bold;
+}
+.register {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
+.register a {
+    color: #3A5A32;
+    font-weight: bold;
+    text-decoration: none;
+}
