@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #DBF3CD;
+}
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header span{
+    color: white;
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+.header img {
+    height: 40px;
+    border-radius: 50%;
+}
+.notification {
+    font-size: 24px;
+    color: #4F7D4A;
+}
+.welcome {
+    height: 150px;
+    text-align: center;
+    background: linear-gradient(#DBF3CD, #91C275, #689B4C);
+    padding: 15px;
+    color: white;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+.welcome .hora{
+    width: 370px;
+    padding: 5px;
+    align-items: center;
+}
+.welcome .hora img{
+    width: 370px;
+    padding: 5px;
+    align-items: center;
+}
+.welcome img {
+    margin-right: 10px;
+}
+  
+.abas {
+    display: flex;
+    justify-content: space-around;
+    background-color: #DBF3CD;
+    padding: 10px;
+}
+  
+.abas button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bold;
+    color: #4e944f;
+}
+  
+.abas .ativa {
+    background-color: #4e944f;
+    color: white;
+}
+  
+.conteudo {
+    padding: 20px;
+}
+  
+.noticia {
+    display: flex;
+    background: #ffffff;
+    border-left: 5px solid #4e944f;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.noticia img{
+    max-height: 80px;
+}
+ 
+.status{
+    display: flex;
+}
+
+.status p{
+    padding-right: 20px;
+}
+
+.noticia h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+}
+  
+.link, .data {
+    font-size: 12px;
+    color: #666;
+}
+
+.bottom-menu {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#477B2A, #91C275);
+    padding: 15px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.bottom-menu .icon-on {
+    max-width: 42px;
+}
+
+.bottom-menu .icon-off {
+    align-content: center;
+    width: 24px;
+}
+  
