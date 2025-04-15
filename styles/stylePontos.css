@@ -54,61 +54,6 @@ body{
 .welcome img {
     margin-right: 10px;
 }
-  
-.abas {
-    display: flex;
-    justify-content: space-around;
-    background-color: #DBF3CD;
-    padding: 10px;
-}
-  
-.abas button {
-    padding: 8px 16px;
-    border: none;
-    border-radius: 20px;
-    background-color: white;
-    font-weight: bold;
-    color: #4e944f;
-}
-  
-.abas .ativa {
-    background-color: #4e944f;
-    color: white;
-}
-  
-.conteudo {
-    padding: 20px;
-}
-  
-.noticia {
-    display: flex;
-    background: #ffffff;
-    border-left: 5px solid #4e944f;
-    margin-bottom: 15px;
-    padding: 15px;
-    border-radius: 10px;
-}
-.noticia img{
-    max-height: 80px;
-}
- 
-.status{
-    display: flex;
-}
-
-.status p{
-    padding-right: 20px;
-}
-
-.noticia h3 {
-    margin: 0 0 5px;
-    font-size: 16px;
-}
-  
-.link, .data {
-    font-size: 12px;
-    color: #666;
-}
 
 .bottom-menu {
     display: flex;
@@ -132,4 +77,21 @@ body{
     align-content: center;
     width: 24px;
 }
-  
+
+#map {
+    z-index: -1;
+    margin-top: -20px;
+    height: 75vh;
+    width: 100%;
+}
+
+.info-box {
+    gap: 15px;
+    display: flex;
+    padding: 10px;
+    background: #e6f4e6;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: -20px;
+}
