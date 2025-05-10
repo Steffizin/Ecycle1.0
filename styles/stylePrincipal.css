@@ -77,13 +77,14 @@ body {
     border-radius: 15px;
     margin-top: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
 }
 .menu-item {
     text-align: center;
     color: #000;
 }
-.menu img {
-    width: 80px;
+.menu-item img {
+    max-width: 100%;
 }
 .news-content{
     margin-top: 20px;
@@ -94,7 +95,7 @@ body {
     padding-right: 20px;
 }
 .news img {
-    width: 175px;
+    width: 100%;
     border-radius: 10px;
     margin-top: 10px;
 }
