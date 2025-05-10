@@ -82,6 +82,7 @@ body{
   
 .noticia {
     display: flex;
+    justify-content: space-between;
     background: #ffffff;
     border-left: 5px solid #4e944f;
     margin-bottom: 15px;
