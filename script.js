@@ -17,8 +17,5 @@ const map = L.map('map').setView([-23.620464473249893, -46.72967968674794], 16);
     L.marker([-23.620014136933627, -46.731924025049615], { icon: iconeLaranja }).addTo(map)
       .bindPopup('Você está aqui!');
 
-    L.marker([-23.62250601936956, -46.72886094244567], { icon: iconeVerde }).addTo(map)
-      .bindPopup('Ponto de coleta: Mercado e Bebidas Alves');
-
     L.marker([-23.620464473249893, -46.72967968674794], { icon: iconeVerde }).addTo(map)
       .bindPopup('Ponto de coleta: Escola Técnica Abdias');
