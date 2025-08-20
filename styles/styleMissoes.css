@@ -21,6 +21,13 @@ body {
     justify-content: space-between;
     padding: 10px;
 }
+.header i{
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin-left: 5px;
+}
 .header span{
     color: white;
     width: 25px;

@@ -7,11 +7,17 @@
 }
 body {
     background: #DBF3CD;
-
 }
 .body {
     padding: 20px;
     padding-top: 0px;
+}
+.header i{
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin-left: 5px;
 }
 .body i{
     color: #689B4C;
@@ -36,7 +42,7 @@ body {
     border-radius: 50%;
 }
 .welcome {
-    height: 280px;
+    height: 220px;
     text-align: center;
     background: linear-gradient(#DBF3CD, #91C275, #689B4C);
     padding: 15px;
@@ -86,6 +92,12 @@ body {
     padding: 10px;
     text-align: center;
 }
+
+.produtos a{
+    text-decoration: none;
+    color: black;
+}
+
 .produto {
     min-width: 180px;
     background: white;
@@ -97,6 +109,7 @@ body {
     opacity: 50%;
     font-size: 15px;
 }
+
 .cupom img{
     width: 76px;
     margin-bottom: 10px;
@@ -127,4 +140,8 @@ body {
 .bottom-menu .icon-off {
     align-content: center;
     width: 24px;
+}
+
+.espaco{
+    height: 100px;
 }

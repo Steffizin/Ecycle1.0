@@ -5,12 +5,16 @@
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
 }
-body{
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: black;
+body {
+    background: #DBF3CD;
 }
-  
+.body {
+    align-items: center;
+    justify-content: center;
+}
+.body i{
+    color: #689B4C;
+}
 .header {
     display: flex;
     align-items: center;
@@ -32,12 +36,9 @@ body{
     margin-bottom: 2px;
 }
 .header img {
+    width: 40px;
     height: 40px;
     border-radius: 50%;
-}
-.notification {
-    font-size: 24px;
-    color: #4F7D4A;
 }
 .welcome {
     height: 150px;
@@ -47,22 +48,24 @@ body{
     color: white;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-}
-.welcome .hora{
-    width: 370px;
-    padding: 5px;
-    align-items: center;
 }
 .welcome .hora img{
     width: 370px;
     padding: 5px;
     align-items: center;
 }
-.welcome img {
-    margin-right: 10px;
+.saldo h3 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.saldo img{
+    height: 40px;
+}
+.saldo .pontos{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
 .bottom-menu {
@@ -78,7 +81,6 @@ body{
     width: 90%;
     max-width: 400px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    z-index: 4;
 }
 .bottom-menu .icon-on {
     max-width: 42px;
@@ -89,25 +91,76 @@ body{
     width: 24px;
 }
 
-#map {
-    z-index: 1;
-    height: 90vh;
-    width: 100%;
+/* Produto */
+.produto-container {
+    padding: 30px;
+    max-width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+    position: relative;
+    align-content: center;
 }
 
-.info-box {
+.img-prod{
     width: 100%;
-    height: 180px;
-    gap: 15px;
-    display: flex;
-    padding: 20px 30px;
-    background: #DBF3CD;
-    color: #696969;
-    border-radius: 30px  30px  0px 0px;
-    position: fixed;
-    bottom: 0px;
-    z-index: 3;
+    border-radius: 10px;
+    max-width: 500px;  
 }
-.info-box h3{
-    color:#477B2A;
+
+.produto-img {
+    width: 100%;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.avaliacao {
+    color: #555;
+}
+
+.avaliacao a {
+    text-decoration: none;
+    color: #4da6ff;
+}
+
+.vendedor {
+    color: green;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 14px;
+    color: #444;
+}
+
+.info-prod{
+    padding-top: 20px;
+    max-width: 500px;
+}
+/* Preço e quantidade */
+.preco-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.preco i {
+    color: gold;
+    margin-right: 5px;
+}
+
+.quantidade button {
+    background-color: #e5e5e5;
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quantidade span {
+    margin: 0 10px;
+}
+.espaco{
+    height: 75px;
 }
