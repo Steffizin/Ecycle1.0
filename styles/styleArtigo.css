@@ -61,67 +61,66 @@ body{
 .welcome img {
     margin-right: 10px;
 }
-  
-.abas {
-    display: flex;
-    justify-content: space-around;
-    background-color: #DBF3CD;
-    padding: 10px;
-}
-  
-.abas button {
-    padding: 8px 16px;
-    border: none;
-    border-radius: 20px;
-    background-color: white;
-    font-weight: bold;
-    color: #4e944f;
-}
-  
-.abas .ativa {
-    background-color: #4e944f;
-    color: white;
-}
-  
-.conteudo {
-    padding: 20px;
+
+/* Página de artigo */
+.titulo-artigo {
+    font-size: 22px;
+    color: #2e7d32;
+    margin-bottom: 15px;
+    text-align: left;
 }
 
-.conteudo a{
+.conteudo h2{
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.conteudo h3{
+    font-size: 10px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.conteudo h3 a{
     color: black;
 }
-.noticia {
-    display: flex;
-    justify-content: space-between;
-    background: #ffffff;
-    border-left: 5px solid #4e944f;
+
+.img-artigo {
+    width: 100%;
+    border-radius: 12px;
     margin-bottom: 15px;
-    padding: 15px;
-    border-radius: 10px;
-    max-width: 100%;
-}
-.noticia img{
-    max-height: 80px;
-    max-width: 100%;
-}
- 
-.status{
-    display: flex;
 }
 
-.status p{
-    padding-right: 20px;
+.conteudo{
+    padding: 30px;
 }
 
-.noticia h3 {
-    margin: 0 0 5px;
-    font-size: 16px;
+.conteudo p {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
 }
-  
-.link, .data {
-    font-size: 12px;
-    color: #666;
-    max-width: 100%;
+
+.btn-voltar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: #256528;
 }
 
 .bottom-menu {
