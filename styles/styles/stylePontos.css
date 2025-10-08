@@ -5,16 +5,12 @@
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
 }
-body {
-    background: #DBF3CD;
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: black;
 }
-.body {
-    padding: 20px;
-    padding-top: 0px;
-}
-.body i{
-    color: #689B4C;
-}
+  
 .header {
     display: flex;
     align-items: center;
@@ -36,36 +32,37 @@ body {
     margin-bottom: 2px;
 }
 .header img {
-    width: 40px;
     height: 40px;
     border-radius: 50%;
 }
+.notification {
+    font-size: 24px;
+    color: #4F7D4A;
+}
 .welcome {
-    height: 220px;
+    height: 150px;
     text-align: center;
     background: linear-gradient(#DBF3CD, #91C275, #689B4C);
     padding: 15px;
     color: white;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.welcome .hora{
+    width: 370px;
+    padding: 5px;
+    align-items: center;
 }
 .welcome .hora img{
     width: 370px;
     padding: 5px;
     align-items: center;
 }
-.saldo h3 {
-    font-size: 32px;
-    font-weight: bold;
-    padding-right: 10px;
-}
-.saldo img{
-    height: 40px;
-}
-.saldo .pontos{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+.welcome img {
+    margin-right: 10px;
 }
 
 .bottom-menu {
@@ -81,6 +78,7 @@ body {
     width: 90%;
     max-width: 400px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 4;
 }
 .bottom-menu .icon-on {
     max-width: 42px;
@@ -91,57 +89,25 @@ body {
     width: 24px;
 }
 
-.titulo {
-    text-align: center;
-    padding: 20px;
-    font-size: 18px;
-    color: #333;
+#map {
+    z-index: 1;
+    height: 90vh;
+    width: 100%;
 }
-  
-.missoes {
+
+.info-box {
+    width: 100%;
+    height: 180px;
+    gap: 15px;
     display: flex;
-    flex-direction: column;
-    gap: 25px;
-    padding: 0 20px 30px;
+    padding: 20px 30px;
+    background: #DBF3CD;
+    color: #696969;
+    border-radius: 30px  30px  0px 0px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 3;
 }
-
-.missoes h3{
-    font-size: 18px;
+.info-box h3{
+    color:#477B2A;
 }
-
-.missoes h3{
-    font-size: 14px;
-}
-
-.missao {
-    align-items: center;
-    display: flex;
-    border-radius: 15px;
-    padding: 15px 20px;
-    color: #333;
-    font-size: 14px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    position: relative;
-}
-
-.progress{
-    width: 224px;
-    background-color: white;
-}
-
-.missao img{
-    max-height: 40px;
-    padding-right: 10px;
-}
-
-.espaco{
-    height: 75px;
-}
-  
-/* Cores de fundo específicas */
-.verde { background-color: #d1f3e0; }
-.amarela { background-color: #fff7c9; }
-.rosa { background-color: #fcd5d5; }
-.azul { background-color: #d9ecfd; }
-.cinza { background-color: #e6e6e6; }
-  

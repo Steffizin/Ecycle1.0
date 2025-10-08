@@ -12,6 +12,13 @@ body {
     padding: 20px;
     padding-top: 0px;
 }
+.header i{
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin-left: 5px;
+}
 .body i{
     color: #689B4C;
 }
@@ -20,13 +27,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-}
-.header i{
-    color: white;
-    width: 30px;
-    height: 30px;
-    font-size: 30px;
-    margin-left: 5px;
+    margin-bottom: 30px;
 }
 .header span{
     color: white;
@@ -54,6 +55,9 @@ body {
     padding: 5px;
     align-items: center;
 }
+.saldo h2 {
+    margin-bottom: 10px;
+}
 .saldo h3 {
     font-size: 32px;
     font-weight: bold;
@@ -67,7 +71,54 @@ body {
     justify-content: center;
     padding: 10px;
 }
+.section-title {
+    margin: 20px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4F7D4A;
+}
+.cupons, .produtos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+.cupons::-webkit-scrollbar, .produtos::-webkit-scrollbar {
+    display: none;
+}
+.cupom{
+    min-width: 120px;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+}
 
+.produtos a{
+    text-decoration: none;
+    color: black;
+}
+
+.produto {
+    min-width: 180px;
+    background: white;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.produto p{
+    opacity: 50%;
+    font-size: 15px;
+}
+
+.cupom img{
+    width: 76px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+.produto img {
+    width: 148px;
+    margin-bottom: 10px;
+}
 .bottom-menu {
     display: flex;
     justify-content: space-around;
@@ -91,57 +142,6 @@ body {
     width: 24px;
 }
 
-.titulo {
-    text-align: center;
-    padding: 20px;
-    font-size: 18px;
-    color: #333;
-}
-  
-.missoes {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    padding: 0 20px 30px;
-}
-
-.missoes h3{
-    font-size: 18px;
-}
-
-.missoes h3{
-    font-size: 14px;
-}
-
-.missao {
-    align-items: center;
-    display: flex;
-    border-radius: 15px;
-    padding: 15px 20px;
-    color: #333;
-    font-size: 14px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    position: relative;
-}
-
-.progress{
-    width: 224px;
-    background-color: white;
-}
-
-.missao img{
-    max-height: 40px;
-    padding-right: 10px;
-}
-
 .espaco{
-    height: 75px;
+    height: 100px;
 }
-  
-/* Cores de fundo específicas */
-.verde { background-color: #d1f3e0; }
-.amarela { background-color: #fff7c9; }
-.rosa { background-color: #fcd5d5; }
-.azul { background-color: #d9ecfd; }
-.cinza { background-color: #e6e6e6; }
-  

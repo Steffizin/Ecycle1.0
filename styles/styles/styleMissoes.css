@@ -96,7 +96,7 @@ body {
     padding: 20px;
     font-size: 18px;
     color: #333;
-}
+  }
   
 .missoes {
     display: flex;
@@ -104,17 +104,8 @@ body {
     gap: 25px;
     padding: 0 20px 30px;
 }
-
-.missoes h3{
-    font-size: 18px;
-}
-
-.missoes h3{
-    font-size: 14px;
-}
-
+  
 .missao {
-    align-items: center;
     display: flex;
     border-radius: 15px;
     padding: 15px 20px;
@@ -124,18 +115,19 @@ body {
     position: relative;
 }
 
-.progress{
-    width: 224px;
-    background-color: white;
-}
-
 .missao img{
     max-height: 40px;
     padding-right: 10px;
 }
-
-.espaco{
-    height: 75px;
+  
+.missao::after {
+    content: ">";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    color: #777;
 }
   
 /* Cores de fundo específicas */

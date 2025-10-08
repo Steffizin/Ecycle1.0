@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #DBF3CD;
+}
+
+/* === HEADER PERFIL === */
+.header-perfil {
+    background: linear-gradient(to bottom, #d9f0d3, #4e8c3c);
+    height: 160px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    padding: 30px;
+}
+.header i{
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.header span{
+    color: white;
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+/* === PERFIL === */
+.perfil-container {
+    text-align: center;
+    margin-top: -75px;
+}
+
+.avatar {
+    position: relative;
+    display: inline-block;
+}
+
+.avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /*border: 5px solid white;*/
+    background-color: white;
+}
+
+.avatar .editar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #4e8c3c;
+    color: white;
+    border-radius: 100%;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.perfil-container h2 {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #2c5024;
+}
+
+.perfil-container h2 span {
+    font-weight: bold;
+    color: #2c5024;
+}
+
+/* === OPÇÕES === */
+.perfil-opcoes {
+    background: linear-gradient(to right, #6bbf59, #c6e6be);
+    margin: 20px;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.perfil-opcoes a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.perfil-opcoes a i {
+    font-size: 18px;
+}
+
+.perfil-opcoes a.sair {
+    color: red;
+    font-weight: bold;
+}
+
+/* === MENU INFERIOR === */
+.bottom-menu {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#477B2A, #91C275);
+    padding: 15px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.bottom-menu .icon-on {
+    max-width: 42px;
+}
+
+.bottom-menu .icon-off {
+    align-content: center;
+    width: 24px;
+}

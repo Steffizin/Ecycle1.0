@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #DBF3CD;
+}
+a{
+    color: #00000000;
+}
+.body {
+    padding: 20px;
+    margin-top: -190px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header i{
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.header span{
+    color: white;
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+.header img {
+    height: 40px;
+    border-radius: 50%;
+}
+.notification {
+    font-size: 24px;
+    color: #4F7D4A;
+}
+.welcome {
+    right: 0px;
+    display: block;
+    align-items: center;
+    background: linear-gradient(#DBF3CD, #91C275, #689B4C);
+    padding: 15px;
+    border-radius: 0%  0%  20% 20%;
+    max-width: 100%;
+    height: 350px;
+}
+.welcome .hora{
+    width: 370px;
+    padding: 5px;
+    align-items: center;
+}
+.welcome .hora img{
+    width: 370px;
+    padding: 5px;
+    align-items: center;
+}
+.welcome img {
+    margin-right: 10px;
+}
+.welcome-text {
+    color: #4F7D4A;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #ffff;
+}
+.welcome-text img{
+    width: 55px;
+}
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+}
+.menu-item {
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+.menu-item img {
+    max-width: 100%;
+}
+.news-content{
+    color: #000;
+    display: flex;
+    justify-content: space-evenly;
+}
+.news{
+    width: 200px;
+    padding: 10px;
+}
+.news img {
+    width: 100%;
+    border-radius: 10px;    
+}
+.news h2{
+    font-size: 12px;
+    padding-top: 10px;
+}
+.news p{
+    font-size: 10px;
+}
+.news-title{
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.news-title p{
+    color: #3092ED;
+    font-weight: bold   ;
+}
+.bottom-menu {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#477B2A, #91C275);
+    padding: 15px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.bottom-menu .icon-on {
+    max-width: 42px;
+}
+
+.bottom-menu .icon-off {
+    align-content: center;
+    width: 24px;
+}
+
+.espaco{
+    height: 75px;
+}

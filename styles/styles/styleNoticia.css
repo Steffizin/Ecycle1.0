@@ -5,16 +5,12 @@
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
 }
-body {
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
     background: #DBF3CD;
 }
-.body {
-    padding: 20px;
-    padding-top: 0px;
-}
-.body i{
-    color: #689B4C;
-}
+  
 .header {
     display: flex;
     align-items: center;
@@ -36,12 +32,15 @@ body {
     margin-bottom: 2px;
 }
 .header img {
-    width: 40px;
     height: 40px;
     border-radius: 50%;
 }
+.notification {
+    font-size: 24px;
+    color: #4F7D4A;
+}
 .welcome {
-    height: 220px;
+    height: 150px;
     text-align: center;
     background: linear-gradient(#DBF3CD, #91C275, #689B4C);
     padding: 15px;
@@ -49,23 +48,80 @@ body {
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
 }
+.welcome .hora{
+    width: 370px;
+    padding: 5px;
+    align-items: center;
+}
 .welcome .hora img{
     width: 370px;
     padding: 5px;
     align-items: center;
 }
-.saldo h3 {
-    font-size: 32px;
-    font-weight: bold;
-    padding-right: 10px;
+.welcome img {
+    margin-right: 10px;
 }
-.saldo img{
-    height: 40px;
-}
-.saldo .pontos{
+  
+.abas {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    background-color: #DBF3CD;
     padding: 10px;
+}
+  
+.abas button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bold;
+    color: #4e944f;
+}
+  
+.abas .ativa {
+    background-color: #4e944f;
+    color: white;
+}
+  
+.conteudo {
+    padding: 20px;
+}
+
+.conteudo a{
+    color: black;
+}
+.noticia {
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    border-left: 5px solid #4e944f;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+.noticia img{
+    max-height: 80px;
+    max-width: 100%;
+}
+ 
+.status{
+    display: flex;
+}
+
+.status p{
+    padding-right: 20px;
+}
+
+.noticia h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+}
+  
+.link, .data {
+    font-size: 12px;
+    color: #666;
+    max-width: 100%;
 }
 
 .bottom-menu {
@@ -91,57 +147,6 @@ body {
     width: 24px;
 }
 
-.titulo {
-    text-align: center;
-    padding: 20px;
-    font-size: 18px;
-    color: #333;
-}
-  
-.missoes {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    padding: 0 20px 30px;
-}
-
-.missoes h3{
-    font-size: 18px;
-}
-
-.missoes h3{
-    font-size: 14px;
-}
-
-.missao {
-    align-items: center;
-    display: flex;
-    border-radius: 15px;
-    padding: 15px 20px;
-    color: #333;
-    font-size: 14px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    position: relative;
-}
-
-.progress{
-    width: 224px;
-    background-color: white;
-}
-
-.missao img{
-    max-height: 40px;
-    padding-right: 10px;
-}
-
 .espaco{
     height: 75px;
 }
-  
-/* Cores de fundo específicas */
-.verde { background-color: #d1f3e0; }
-.amarela { background-color: #fff7c9; }
-.rosa { background-color: #fcd5d5; }
-.azul { background-color: #d9ecfd; }
-.cinza { background-color: #e6e6e6; }
-  

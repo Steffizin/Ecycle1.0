@@ -5,16 +5,12 @@
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
 }
-body {
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
     background: #DBF3CD;
 }
-.body {
-    padding: 20px;
-    padding-top: 0px;
-}
-.body i{
-    color: #689B4C;
-}
+  
 .header {
     display: flex;
     align-items: center;
@@ -36,12 +32,15 @@ body {
     margin-bottom: 2px;
 }
 .header img {
-    width: 40px;
     height: 40px;
     border-radius: 50%;
 }
+.notification {
+    font-size: 24px;
+    color: #4F7D4A;
+}
 .welcome {
-    height: 220px;
+    height: 150px;
     text-align: center;
     background: linear-gradient(#DBF3CD, #91C275, #689B4C);
     padding: 15px;
@@ -49,23 +48,79 @@ body {
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
 }
+.welcome .hora{
+    width: 370px;
+    padding: 5px;
+    align-items: center;
+}
 .welcome .hora img{
     width: 370px;
     padding: 5px;
     align-items: center;
 }
-.saldo h3 {
-    font-size: 32px;
-    font-weight: bold;
-    padding-right: 10px;
+.welcome img {
+    margin-right: 10px;
 }
-.saldo img{
-    height: 40px;
+
+/* Página de artigo */
+.titulo-artigo {
+    font-size: 22px;
+    color: #2e7d32;
+    margin-bottom: 15px;
+    text-align: left;
 }
-.saldo .pontos{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+
+.conteudo h2{
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.conteudo h3{
+    font-size: 10px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.conteudo h3 a{
+    color: black;
+}
+
+.img-artigo {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.conteudo{
+    padding: 30px;
+}
+
+.conteudo p {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.btn-voltar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: #256528;
 }
 
 .bottom-menu {
@@ -91,57 +146,6 @@ body {
     width: 24px;
 }
 
-.titulo {
-    text-align: center;
-    padding: 20px;
-    font-size: 18px;
-    color: #333;
-}
-  
-.missoes {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    padding: 0 20px 30px;
-}
-
-.missoes h3{
-    font-size: 18px;
-}
-
-.missoes h3{
-    font-size: 14px;
-}
-
-.missao {
-    align-items: center;
-    display: flex;
-    border-radius: 15px;
-    padding: 15px 20px;
-    color: #333;
-    font-size: 14px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    position: relative;
-}
-
-.progress{
-    width: 224px;
-    background-color: white;
-}
-
-.missao img{
-    max-height: 40px;
-    padding-right: 10px;
-}
-
 .espaco{
     height: 75px;
 }
-  
-/* Cores de fundo específicas */
-.verde { background-color: #d1f3e0; }
-.amarela { background-color: #fff7c9; }
-.rosa { background-color: #fcd5d5; }
-.azul { background-color: #d9ecfd; }
-.cinza { background-color: #e6e6e6; }
-  
