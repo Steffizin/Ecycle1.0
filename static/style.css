@@ -103,3 +103,18 @@ input {
     font-weight: bold;
     text-decoration: none;
 }
+.register button{
+    background-color: #3a5a3200;
+    border-color: #3a5a3200;
+}
+
+.alerta{
+    font-size: 15px;
+    color: red;
+    text-align: right;
+    margin-top: 5px;
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    font-size: 14px;
+}

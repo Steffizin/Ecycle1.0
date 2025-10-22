@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Login - E-Cycle</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="../static/img/logo.png" alt="E-Cycle">
+        </div>
+        <h1>E-CYCLE</h1>
+        <form action="/acesso" method="POST">
+            <div class="input-container">
+                <label for="email"><b>E-mail</b></label>
+                <input type="email"  name="email" id="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="input-container">
+                <label for="password"><b>Password</b></label>
+                <input type="password"  name="password" id="password" placeholder="Digite sua senha">
+                
+                {% set messages = get_flashed_messages() %}
+                {% if messages %}
+                <div class="alerta">
+                    {{messages[0]}}
+                </div>
+                {% endif %}
+
+                <div class="forgot-password">
+                    <p>Esqueci minha senha.</p> <a href="#">Clique aqui</a>
+                </div>
+            </div>
+           
+            <button type="submit" class="button">Login</button>
+            
+            <div class="register">
+                Não tem uma conta? <button><a href="/cadastro">Criar</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
